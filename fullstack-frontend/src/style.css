@@ -1,0 +1,437 @@
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-family: "Poppins", serif;
+  
+  background: linear-gradient(58deg, rgba(227,229,230,1) 0%, rgba(238,237,219,1) 35%, rgba(248,236,181,1) 100%);
+  position: relative;
+}
+
+.head {
+    font-size: 35px;
+}
+
+.box-1-login-img {
+  height: 600px;
+  width: 650px;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+
+
+  
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.box-2 {
+  height: 80vh;
+  width: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+  position: absolute;
+  top: 70px;
+  right: 47px;
+  background-color: rgba(75, 77, 247, 0.); /* 50% opacity */
+
+}
+.table{
+  background: linear-gradient(58deg, rgba(227,229,230,1) 0%, rgba(238,237,219,1) 35%, rgba(248,236,181,1) 100%);
+}
+.box-2-input-box {
+  height: 50px;
+  width: 300px;
+
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin: 10px;
+}
+
+.box-2-input-box:focus {
+  outline: none; /* Removes the focus border */
+  /* Removes the border */
+}
+
+.box-1 {
+  height: 100vh;
+  width: 60%;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  
+}
+
+.box-2-button {
+  border: none;
+  background-color: #EB9C01;
+  height: 40px;
+  width: 100px;
+  color: white;
+}
+
+
+
+.box-1-heading {
+    position: absolute;
+    top: 70px;
+    left: 870px;
+    background: rgba(75, 77, 247, 0.3); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Adds a blurring effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    width: 400px;
+    height: 50px;
+    display: flex; /* Use flex for better centering */
+    align-items: center; /* Vertical centering */
+    padding-left: 30px;
+     /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border */
+    color: black; /* Ensure text is readable */
+    font-size: 1.5rem;
+    
+    
+    
+  }
+
+  .box-2-heading{
+
+    position: absolute;
+    top: 27px;
+    left: 910px;
+    background: rgba(252, 251, 252, 0); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Adds a blurring effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    width: 370px;
+    height: 100px;
+    display: flex; /* Use flex for better centering */
+    align-items: center; /* Vertical centering */
+    padding-left: 30px;
+     /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border */
+    color: black; /* Ensure text is readable */
+    font-size: 1.5rem;
+
+
+  }
+
+  .adjust{
+
+    padding-top: 1px;
+    font-size:x-large;
+    padding-left: 10px;
+    color:black;
+  }
+
+/* .container {
+  height: 100vh;
+  background-image: url("./assets/background.jpg");
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat; /
+} */
+.icone{
+
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+.icons{
+
+    margin-top: 20px;
+    margin-left: 60px;
+    display: inline-block;
+    justify-content: center;
+}
+.icone1{
+
+    background-color: #1877F2;
+    height: 45px;
+    width: 90px;
+    padding-top: 1px;
+    padding-left: 13px;
+}
+
+.form-control{
+
+  padding: 10px;
+  width: 180px;
+}
+
+.sub-navbar{
+
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  top:10px;
+  left: 48%;
+  border-radius: 30px;
+  margin-right: 20px;
+  background-color: white;
+  padding-top: 13px;
+  width: 50%;
+  padding-left: 28px;
+  
+  }
+
+.sub-navbar-one{
+
+  padding-right: 35px;
+  color:black;
+  padding: 5px;
+  border-radius: 20px;
+  margin: 5px;
+  text-decoration: none;
+  
+  margin-bottom: 16px;
+  
+  
+}
+.one{
+
+  text-decoration: none;
+}
+
+.sub-navbar-one:hover{
+
+  padding-right: 35px;
+  color:white;
+  padding: 5px;
+  border-radius: 20px;
+  background-color:  #303030;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.4s;
+  
+}
+
+.navbar{
+
+  display: flex;
+  margin-top: 10px;
+align-items: center;
+}
+
+.project-name{
+
+  position: absolute;
+  top: 29px;
+  margin-left: 20px;
+}
+.main-work{
+
+  background-color: white;
+  position: absolute;
+  top: 120px;
+  left: 25px;
+  width: 96%;
+  border-radius: 30px;
+  height: 75vh;
+ 
+}
+.feeheadbox{
+
+  margin-left: 20%;
+  margin-top: 30px;
+}
+.inp{
+  margin: 10px;
+  height: 40px;
+  background-color: #F7ECB9;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.buttonn{
+
+  border: none;
+  background-color: #3C3C3C;
+  color: white;
+  border-radius: 20px;
+  padding: 15px;
+}
+.alignbox{
+
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.feebox{
+
+  margin-left: 9%;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+
+.adminicon{
+
+  position: absolute;
+  left: 40%;
+  top: 90%;
+  background-color: white;
+  padding-top: 10px;
+  border-radius: 30px;
+  
+}
+.Adminbox{
+
+  position: absolute;
+  height: 90vh;
+  width: 95%;
+  right: 40px;
+  background-color: white;
+  border-radius: 30px;
+
+}
+
+
+.Admin-sub-navbar-one{
+
+  padding-right: 35px;
+  color:black;
+  padding: 5px;
+  border-radius: 20px;
+  margin-right: 25px;
+  text-decoration: none;
+  height: 160px;
+  width: 160px;
+  
+  
+  
+}
+
+
+.Admin-sub-navbar-one:hover{
+
+  padding-right: 35px;
+  color:white;
+  padding: 5px;
+  border-radius: 20px;
+  background-color:  #C4EEF2;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.4s;
+  
+}
+.Admin-sub-navbar{
+
+  margin-left: 30px;
+  display: flex;
+}
+.Admin-Admin{
+
+  margin-top: 15%;
+  margin-left: 2%;
+}
+.Admin-FeeHead{
+  margin-top: 15%;
+}
+.Admin-StudentRegister{
+  
+  margin-left: 3%;
+  margin-top: 5%;
+
+}
+.Admin-StudentDetail{
+  margin-right: 10%;
+  margin-left: 10%;
+  
+}
+.container{
+  margin-top: 20px;
+}
+.student-reg{
+
+  margin-left: 40px;
+  margin-top: 10px;
+}
+#goback{
+
+  position:absolute;
+  right: 1%;
+  top:-10%
+}
+#goback1{
+
+  position:absolute;
+  right: 5.3%;
+  top:9px
+}
+#goback2{
+
+  position:absolute;
+  left: 40%;
+  top:7%;
+}
+#goback3{
+
+  position:absolute;
+ top: 1.4%;
+ left: 35%;
+ 
+}
+.admin-dashboard{
+ 
+  margin-top: 27px;
+  
+}
+.dashboard-title1{
+  margin-left: 54px;
+}
+#goback4{
+
+  position: absolute;
+  right: 74%;
+  top:1px;
+}
+#goback5{
+
+  position: absolute;
+  right: 72%;
+  top:1px;
+}
+.Edit-box{
+
+  background: linear-gradient(58deg, rgba(227,229,230,1) 0%, rgba(238,237,219,1) 35%, rgba(248,236,181,1) 100%);
+  
+}
+.side{
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+.Admin-Login-form{
+
+  margin-right: 110%;
+}
+.feeboxs{
+
+  margin-bottom :20px;
+}
+.feepaymentbox{
+
+  position: absolute;
+  top: 31px;
+  right: 45%;
+}
+.batch-preview{
+  margin: 30px;
+
+}
+.total-fee{
+  position: absolute;
+  right: 25%;
+  top: 52%;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  
+
+
+}
